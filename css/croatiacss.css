@@ -1,0 +1,160 @@
+/*CROATIA BLOGS STYLING PAGE*/
+
+body{
+    background-color: #eee;
+    margin-top:20px;
+    background-image : url(worldpic.png);
+    background-size: 100% 100%;
+    background-color: #848484;
+}
+.media.media-news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 210px;
+}
+@media (min-width: 768px) {
+    .media.media-news {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .media.media-news {
+        padding-bottom: 25px;
+        margin-bottom: 0;
+    }
+}
+.media.media-news .media-body {
+    padding: 20px;
+    box-shadow: 0 22px 28px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    position: absolute;
+    width: 85%;
+    right: 0;
+    bottom: 0;
+}
+@media (min-width: 768px) {
+    .media.media-news .media-body {
+        position: relative;
+        padding: 46.5px 35px;
+        right: 0;
+    }
+}
+@media (min-width: 992px) {
+    .media.media-news .media-body {
+        right: 40px;
+        bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .media.media-news .media-body {
+        position: absolute;
+        right: 35px;
+        width: 60%;
+        padding: 20px;
+    }
+}
+.media.media-news .media-body .media-date {
+    font-family: "Open Sans", sans-serif;
+    color: #848484;
+    margin-bottom: 10px;
+}
+.media.media-news .media-body h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.media.media-news .media-body h5.small {
+    font-size: 16px;
+}
+.media.media-news .media-body p {
+    font-family: "Open Sans", sans-serif;
+    color: #848484;
+}
+.media.media-news .media-body .common-btn {
+    margin-top: 10px;
+}
+.btn btn-outline-succes{
+
+}
+
+/*PREVIOUS AND NEXT POAGE CSS*/
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+.previous{
+    margin-left: 30px;
+}
+.next{
+    margin-left: 30px;
+}
+
+/*.media.media-news.media-img>img{
+-webkit-transform: scale(1);
+-ms-transform:scale(1);
+transform: scale(1);
+opacity: 1;
+-webkit-transition: -webkit-transform .4s ease, opacity .4s ease;
+transition: transform .4s ease, opacity .4s ease;
+max-width: 100%;
+filter: none;
+-webkit-filter: grayscale(0);
+-webkit-transform: scale(1.01)
+}
+*/
+
+.media-news .media-img>img {
+    -webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+-webkit-transition: -webkit-transform .4s ease, opacity .4s ease;
+transition: transform .4s ease, opacity .4s ease;
+max-width: 100%;
+filter: none;
+-webkit-filter: grayscale(0);
+-webkit-transform: scale(1.01)
+}
+
+.media-news .media-img:hover img {
+
+    -webkit-transform: scale(1.02);
+    
+   -ms-transform: scale(1.02);
+    
+    transform: scale(1.02);
+    
+    opacity: .7;
+    
+    filter: gray;
+    
+    -webkit-filter: grayscale(1);
+    
+   -webkit-transition: all .8s ease-in-out
+    
+    }
